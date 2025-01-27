@@ -1,0 +1,40 @@
+/* ESTETICA DE LA PAGINA WEB */
+/* nos referimos a la etiqueta body */
+body{
+    background-color: cornflowerblue;
+}
+
+header{
+    background-color: darkslateblue;
+}
+
+footer{
+    background-color: darkslateblue;
+}
+
+h1{
+    font-size: 8rem;
+}
+
+p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: beige;
+}
+
+a{
+    color: beige;
+}
+
+.color-morado{
+    color: darkviolet;
+}
+
+.color-negro{
+    color: black;
+}
+
+.cursiva{
+    font-style: italic;
+}
