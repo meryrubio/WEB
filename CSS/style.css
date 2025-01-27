@@ -38,3 +38,7 @@ a{
 .cursiva{
     font-style: italic;
 }
+
+#palabra-especial{
+    color: aqua;
+}
