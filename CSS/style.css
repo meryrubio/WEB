@@ -42,3 +42,11 @@ a{
 #palabra-especial{
     color: aqua;
 }
+
+.all-good{
+    background-color: green;
+}
+
+.error{
+    background-color: darkred;
+}

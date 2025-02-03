@@ -17,6 +17,7 @@ cada etiqueta es lo que va entre <> -->
     <!-- agregamos el link para el css -->
     <link rel="stylesheet" href="CSS/style.css">
     <!-- el titulo de la pagina web -->
+    <script type="text/javascript" src="js/main.js"></script>
     <title>Document</title>
 </head>
 
@@ -42,7 +43,7 @@ cada etiqueta es lo que va entre <> -->
 
     <!-- es un contenedor, es un comodin que vale para todo -->
     <div>
-        <h3> Título 2</h3>
+        <h3 id="titulo3"> Título 2</h3>
         <!-- etiqueta para meter un parrafo = p -->
         <p><span id="palabra-especial">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Hic earum soluta rem, quam eaque dolores.</p>
         <!-- img para poner imagenes src, de donde viene la imagen y "images" es el nombre de la carpeta donde esta; tambien se pueden meter videos-->
@@ -56,10 +57,10 @@ cada etiqueta es lo que va entre <> -->
         label es como un encabezado para cada hueco del formulario
         submit es un boton-->
         <label> Correo</label>
-        <input type="email" placeholder="email">
+        <input id = "input-mail" type="email" placeholder="email">
         <label> Contraseña</label>
-        <input type="password" placeholder="password">
-        <input type="submit" value="ENVIAR">
+        <input id = "input-pass" type="password" placeholder="password">
+        <input type="submit" value="ENVIAR" onclick="validate(event)">
 
 
     </form>
